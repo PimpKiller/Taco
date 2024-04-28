@@ -2,3 +2,166 @@
  * @file
  * Subtheme specific CSS.
  */
+
+
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ 
+
+ .navbar-brand {
+    font-size: xx-large;
+    color: red;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+}
+
+
+.view-content {
+    width: 100%; 
+    height: 100vh; 
+    background-image: url('https://media.istockphoto.com/id/459396345/sv/foto/taco.jpg?s=612x612&w=0&k=20&c=HQSWgP0l6Nj3LuAYgXzbtp7K7k425-I5h5IzxT6Egws='); /* Specify the URL of the image */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: repeat-y; 
+  }
+
+
+body{
+    width: 100%; 
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/459396345/sv/foto/taco.jpg?s=612x612&w=0&k=20&c=HQSWgP0l6Nj3LuAYgXzbtp7K7k425-I5h5IzxT6Egws='); /* Specify the URL of the image */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat-y; 
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+a {
+ color: rgb(255, 208, 0); 
+}
+
+.node__title, .node__meta{
+
+    background-color: #FFDAB9;
+    text-align: center;
+}
+
+
+  .navbar-brand {
+    font-size: xx-large;
+    color: #FF6347; 
+}
+
+
+p, h1, h2 {
+    color: #8B4513; 
+    font-weight: bold;
+}
+
+.header {
+    background-color: #FFDAB9; 
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+
+}
+
+
+
+.site-footer {
+    padding: 20px;
+    text-align: center;
+    visibility: hidden;}
+
+
+
+a:hover{
+    background-color: #da5b12;
+    color: #fff;
+    padding: 1px 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    text-decoration: underline;
+}
+
+
+nav {
+
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li  {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li {
+    text-decoration: underline;
+}
+
+#navbar-top, #navbar-main {
+    background-color: #8B4513;
+}
+
+.pagination, .pagination-heading{
+  visibility: hidden;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+
+footer {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.node__title
+{font-size: x-large;}
+.node__meta{
+  font-size: x-small;
+}
+
+.align-top{
+    background-image: url(""); 
+    background-size: cover;
+    width: 200px;
+    height: 125px;
+}
